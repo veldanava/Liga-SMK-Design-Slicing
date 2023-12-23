@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Poppins:wght@300&family=Roboto&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.arr{
+  margin-top: 1%;
+  margin-right: 20px;
+}
+
+.navbar-kanan{
+  display: flex;
+}
+
+.tmbl{
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+/* hero */
+
+.hero{
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  max-height: 90%;
+  min-height: 550px;
+  background-color: #f0f2ff;
+}
+
+.kanan{
+  margin-top: 10%;
+}
+
+.txt-kanan{
+  width: 60%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bawah{
+  width: 60%;
+  margin-top: 5%;
+  color: gray;
+  font-size: 15px;
+}
+
+.kiri{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.tombol{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  background-color: #3b10e4;
+  height: 8%;
+  margin-top: 5%;
+  width: 35%;
+}
+
+.text-tombol{
+  padding-left: 10px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.panah{
+  padding-right: 10px;
+}
+
+/* tengah */
+.tengah{
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  background-color: #facc3b;
+  height: 125px;
+}
+
+.items{
+  width: 40%;
+  display: flex;
+}
+
+.head{
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.head-bawah{
+  font-size: 15px;
+}
+
+/* list */
+.list-populer{
+  padding-left: 15%;
+  padding-right: 15%;
+  min-height: 785px;
+}
+
+.itm{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-list{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.uhuy{
+  margin-top: 8px;
+  display: flex;
+}
+
+.itms{
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.fixed{
+  margin-top: 7%;
+  display: flex;
+  gap: 3%;
+}
+
+.card{
+  border-radius: 5px;
+  min-height: 220px;
+}
+
+.card-top{
+  padding: 8px;
+  position: absolute;
+}
+
+.card-title{
+  margin-top: 5%;
+  padding-left: 8%;
+  color: #3b10e4;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card-content{
+  margin-top: 5%;
+  padding-left: 8%;
+  width: 95%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.cat{
+  padding-left: 8%;
+  margin-top: 10%;
+  display: flex;
+}
+
+.cat-items{
+  width: 45%;
+  display: flex;
+}
+
+.level, .info{
+  margin-left: 10%;
+  font-size: 11px;
+}
+
+.card-pic{
+  height: 65%;
+  width: 220px;
+}
+
+/* membership */
+.member{
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: #fef0e5;
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 210px;
+}
+
+.mem{
+  display: flex;
+}
+
+.mem-pict{
+  height: 140px;
+  width: 140px;
+}
+
+.mem-text{
+  margin-left: 8%;
+  margin-top: 4%;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  width: 45%;
+}
+
+.tombol2{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  background-color: #3b10e4;
+  height: 30%;
+  margin-top: 7%;
+  width: 18%;
+}
+
+.text-tombol2{
+  padding-left: 3px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.panah2{
+  padding-right: 15px;
+}
+
+/* kategori populer */
+.cat-pop{
+  min-height: 475px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.judul{
+  text-align: center;
+  margin-top: 7%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.fixed2{
+  margin-top: 7%;
+  display: flex;
+  width: 105%;
+  gap: 3%;
+}
+
+.pic{
+  padding: 10px;
+  height: 65px;
+  width: 65px;
+  margin-right: 15px;
+  border-radius: 100px;
+  background-color: #f0f2ff;
+}
+
+.card2{
+  display: flex;
+  width: 55%;
+  padding: 8px;
+  border-radius: 15px;
+  -webkit-box-shadow: -12px 35px 81px -56px rgba(0,0,0,1);
+  -moz-box-shadow: -12px 35px 81px -56px rgba(0,0,0,1);
+  box-shadow: -12px 35px 81px -56px rgba(0,0,0,1);
+}
+
+.besar{
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+.bawah-besar{
+  color: gray;
+}
+
+.ex{
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  display: flex;
+}
+
+.exp{
+  margin-right: 5px;
+  font-size: 13px;
+  color: #3b10e4;
+}
+
+/* increase */
+.ting{
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #f0f2ff;
+  padding: 8%;
+  display: flex;
+}
+
+.lay{
+  width: 110%;
+  margin-right: 8%;
+}
+
+.txt-knn{
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 35px;
+  width: 75%;
+}
+
+.txt-bwh{
+  margin-top: 3%;
+  font-size: 15px;
+  width: 90%;
+  color: gray;
+}
+
+.tombol3{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  background-color: #3b10e4;
+  height: 15%;
+  margin-top: 5%;
+  width: 28%;
+}
+
+.text-tombol3{
+  padding-left: 3px;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+/* event */
+
+.ev{
+  min-height: 520px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.gede{
+  margin-top: 10%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.crd-fix{
+  margin-top: 7%;
+  display: flex;
+  gap: 2%;
+}
+
+.crd-it{
+  margin-top: 3%;
+  display: flex;
+}
+
+.tggl{
+  margin-right: 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.tgl{
+  font-size: 30px;
+  color: #3b10e4;
+  font-weight: bold;
+}
+
+.bln{
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+}
+
+.locate{
+  margin-left: 3%;
+  font-size: 12px;
+  color: gray;
+}
+
+.hy{
+  margin-top: 5%;
+  display: flex;
+  width: 95%;
+}
+
+.jdl{
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* footer */
+.foot{
+  padding-top: 3%;
+  background-color: #090e22;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.ft-knn{
+ width: 85%; 
+}
+
+.ft-sos{
+  margin-top: 20%;
+  display: flex;
+}
+
+.ssmd{
+  padding-right: 20px;
+}
+
+.ft-knn-txt{
+  margin-bottom: 3%;
+  margin-top: 3%;
+  color: gray;
+  font-size: 13px;
+  font-weight: bold;
+  width: 85%;
+}
+
+.ft-atas{
+  display: flex;
+  width: 100%;
+}
+
+.res{
+  width: 60%;
+}
+
+.res-txt-jdl{
+  font-weight: bold;
+  font-size: 20px;
+  color: #f0f2ff;
+  margin-bottom: 10%;
+}
+
+.res-txt{
+  font-size: 13px;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 7%;
+}
+
+.dw{
+  background-color: white;
+  width: 75%;
+  padding: 8px;
+  border-radius: 15px;
+  margin-bottom: 10%;
+}
+
+.garis{
+  margin-top: 4%;
+  height: 1px;
+  background-color: gray;
+}
+
+.cnt{
+  display: flex;
+  color: gray;
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 5%;
+}
+
+.ap{
+  margin-right: 20px;
+}
+
+.log{
+  margin-left: 40%;
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
